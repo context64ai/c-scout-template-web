@@ -1,0 +1,9 @@
+[project]
+name = "c-scout-template-web"
+version = "0.1.0"
+description = "Sample AI Agent that enables autonomous navigation and data gathering from specific websites."
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "browser-use>=0.1.29",
+]
