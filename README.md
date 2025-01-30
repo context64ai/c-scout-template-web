@@ -19,7 +19,7 @@ A sample AI Agent for autonomous navigation and data gathering from websites. ðŸ
 2. Install the required dependencies using `uv`:
 
    ```bash
-   uv install
+   uv sync
    ```
 
 3. Copy `example.env` to `.env` and edit the encironment variables (e.g., `OPENAI_API_KEY`):
