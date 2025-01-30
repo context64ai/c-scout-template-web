@@ -1,2 +1,5 @@
 __pycache__
 agent_history.gif
+.DS_Store
+.env
+output*.csv

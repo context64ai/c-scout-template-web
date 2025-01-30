@@ -1,12 +1,12 @@
 from langchain_openai import ChatOpenAI
-from browser_use import Agent
+from browser_use import Agent, SystemPrompt
 from dotenv import load_dotenv
 
 import logging
 
 logging.getLogger("browser_use").setLevel(logging.ERROR)
 
-load_dotenv()
+load_dotenv(override=True)
 
 system_prompt_for_llm = None
 
